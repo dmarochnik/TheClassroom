@@ -12,6 +12,8 @@ namespace TheSchool
             Console.WriteLine(student.GiveIntro());
             var teacher = new Teacher("jane", "doe", 9, new decimal(60000.2), "555-555-5555", new DateTime(2000, 7, 7));
             Console.WriteLine(teacher.GiveIntro());
+            var classroom = new Classroom(teacher);
+            
         }
     }
 }
